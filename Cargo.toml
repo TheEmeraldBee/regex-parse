@@ -5,11 +5,17 @@ resolver = "2"
 [workspace.package]
 version = "0.0.0"
 edition = "2021"
+description = "Using regex strings, turn strings into structs!"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/TheEmeraldBee/regex-parse"
 
 [package]
 name = "regex-parse"
 version.workspace = true
 edition.workspace = true
+description.workspace = true
+license.workspace = true
+repository.workspace = true
 
 [dependencies]
 regex = "1.10.3"
