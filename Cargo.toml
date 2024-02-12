@@ -1,0 +1,16 @@
+[workspace]
+members = ["regex-parse-proc-macro"]
+resolver = "2"
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+
+[package]
+name = "regex-parse"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+regex = "1.10.3"
+regex-parse-proc-macro = {path="./regex-parse-proc-macro",version="0.0.0"}
